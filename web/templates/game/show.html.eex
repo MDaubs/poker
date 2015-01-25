@@ -1,0 +1,9 @@
+<h2><%= @game.name %></h2>
+<hr/>
+<div class="hand">
+  <%= for {rank, suit} <- @hand do %>
+    <span class="card card-rank-<%= rank %> card-suit-<%= suit %>">
+      <%= WebPoker.Card.unicode {rank, suit} %>
+    </span>
+  <% end %>
+</div>

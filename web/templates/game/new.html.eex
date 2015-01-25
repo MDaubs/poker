@@ -1,0 +1,5 @@
+New Game
+<form action="/games" method="post">
+  <input type="hidden" name="csrf_token" value="<%= csrf_token(@conn) %>">
+  <input type="submit"/>
+</form>

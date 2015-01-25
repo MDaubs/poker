@@ -1,0 +1,11 @@
+div.hand {
+  text-align: center;
+}
+
+div.hand span.card {
+  font-size: 100px;
+}
+
+div.hand span.card-suit-diamonds, div.hand span.card-suit-hearts {
+  color: Red;
+}
